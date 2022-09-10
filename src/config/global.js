@@ -1,17 +1,14 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Seguimiento a proyectos y acciones de mejora',
+    descripcionCurso:
+      'Este componente formativo aborda aspectos del seguimiento que, en unidades productivas, facilita la identificación de situaciones que afectan el desarrollo de procesos y que pueden afectar el cumplimiento de sus objetivos estratégicos. El aprendiz se capacitará en la formulación de acciones de mejora que aumenten la eficiencia de los procesos y la calidad de los bienes y servicios ofrecidos por la organización agropecuaria.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
       },
     ],
   },
@@ -32,31 +29,105 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Planeación de actividades',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Herramientas',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Metodologías y técnicas de planeación',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estimación de recursos',
         desarrolloContenidos: true,
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Indicadores',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipos de indicadores',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Características de los indicadores',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Interpretación',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Herramientas de seguimiento',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Tableros de control',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Cronogramas de trabajo',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Mejora continua',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Ciclo PHVA',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Ejecución de procesos',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Acciones de mejora',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -64,7 +135,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -99,34 +169,100 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia: 'Aulafacil. (s.f.). <i>Componentes de un indicador.</i>',
+      link:
+        'https://www.aulafacil.com/cursos/organizacion/indicadores-de-gestion/componentes-de-un-indicador-l37756 ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Departamento Nacional de Planeación (2018). <i>Guía para la construcción y análisis de indicadores. </i>',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Guia_para_elaborar_Indicadores.pdf ',
+    },
+    {
+      referencia:
+        'Función pública (s.f.). <i>ABC formulación de indicadores. </i>',
+      link: 'https://www.funcionpublica.gov.co/web/murc/actividad-30',
+    },
+    {
+      referencia: 'Función pública (s.f.). <i>Plan de acciones de mejora. </i>',
+      link: 'https://www.funcionpublica.gov.co/web/murc/actividad-24',
+    },
+    {
+      referencia:
+        'Organiza tu pyme y optimiza tu negocio (2019). <i>5 recursos para identificar el tener de mi empresa. </i>',
+      link:
+        'https://organizatupyme.com/5-recursos-para-identificar-el-tener-de-mi-empresa/',
+    },
+    {
+      referencia:
+        'Quiroga, M. (s.f.). <i>Proceso de planificación. Economipedia. </i>',
+      link:
+        'https://economipedia.com/definiciones/proceso-de-planificacion.html ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Evaluación',
+      significado:
+        'Valoración ordenada sobre los resultados obtenidos en la gestión, a partir de la medición de los indicadores de gestión.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Formulación',
+      significado:
+        'Etapa de administración adecuada de los indicadores, dónde se espera definir qué se va a medir y formular el indicador correspondiente.',
+    },
+    {
+      termino: 'Indicador',
+      significado:
+        'Herramienta de gestión que permite conocer el resultado obtenido conforme a una meta planteada.',
+    },
+    {
+      termino: 'Línea base',
+      significado:
+        'Datos e información que describe la situación previa a una intervención.',
+    },
+    {
+      termino: 'Meta',
+      significado:
+        'Valor esperado (objetivo) que espera alcanzar un indicador en un período específico.',
+    },
+    {
+      termino: 'Objetivo',
+      significado:
+        'Afirmación que expresa una intención a través de una acción específica.',
+    },
+    {
+      termino: 'Seguimiento',
+      significado: 'Verificación del cumplimiento del plan operativo. ',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: '3. Indicadores',
+      referencia:
+        'Instituto Distrital de la Participación y Acción Comunal (2018). <i>Guía metodológica para la formulación, medición, seguimiento y evaluación de indicadores de gestión. </i>',
+      tipo: 'Documento',
+      link:
+        'https://www.participacionbogota.gov.co/sites/default/files/2021-01/1525983832-IDPAC-PE-GU-04Guia%20Metodologica%20Elaboracion%20de%20Indicadores%20de%20Gestion%20%284%29.pdf',
+    },
+    {
+      tema: '4. Herramientas de seguimiento',
+      referencia:
+        'Valbor soluciones (s.f.). <i>Cronograma para seguimiento de actividades.</i>',
+      tipo: 'Página web',
+      link:
+        'https://www.valborsoluciones.com/downloads/cronograma-para-seguimiento-de-actividades/',
+    },
+    {
+      tema: '4. Herramientas de seguimiento',
+      referencia:
+        'Comisión Económica para América Latina y el Caribe (2015). <i>Metodología del marco lógico para la planificación, el seguimiento y la evaluación de proyectosy programas.</i>',
+      tipo: 'Documento',
+      link:
+        'https://repositorio.cepal.org/bitstream/handle/11362/5607/S057518_es.pdf',
     },
   ],
   creditos: {
@@ -140,9 +276,30 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable equipo desarrollo curricular',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Regional Norte de Santander  – Centro de la Industria, la Empresa y los Servicios',
+      },
+      {
+        nombre: 'Carlos Andrés Sánchez Suárez',
+        cargo: 'Experto temático',
+        centro: 'Región Tolima - Centro Agropecuario La Granja',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor metodológico',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Correctora de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
@@ -153,67 +310,42 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '--',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Daniel Polanco',
+        cargo: 'Revisión diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Edgar Mauricio Cortes Garcia',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: '--',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '--',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
+        cargo: 'Responsable equipo de gestores de repositorio',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

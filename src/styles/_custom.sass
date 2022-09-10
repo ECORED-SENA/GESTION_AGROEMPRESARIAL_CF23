@@ -1,19 +1,234 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotating 10s linear infinite;
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 6%
+    right: 0%
 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+@-webkit-keyframes rotating 
+    from
+        -webkit-transform: rotate(0deg);
+    
+    to
+        -webkit-transform: rotate(360deg);
+.bg1
+  background-image: url("../assets/curso/tema/t1/bg-gray.svg") !important
+  background-size: contain
+  margin-inline: -3.4rem
+  padding: 50px
+  padding-top: 0px!important
+  background-repeat: no-repeat 
+  @media screen and ( max-width: 992px)
+    background-size: cover
+    margin-inline: -3.5rem 
+.bg2
+  background-image: url("../assets/curso/tema/t2/bg-blue.svg") !important
+  background-size: contain
+  margin-inline: -3.4rem
+  padding: 50px
+  padding-top: 0px!important
+  background-repeat: no-repeat 
+  @media screen and ( max-width: 992px)
+    background-size: cover
+    margin-inline: -3.5rem 
+.bg3
+  background-image: url("../assets/curso/tema/t3/bg-gray-blue.svg") !important
+  background-size: contain
+  margin-inline: -3.4rem
+  padding: 50px
+  padding-top: 0px!important
+  background-repeat: no-repeat 
+  @media screen and ( max-width: 992px)
+    background-size: cover
+    margin-inline: -3.5rem
+.bg5
+  background-image: url("../assets/curso/tema/t5/bg-blue.svg") !important
+  background-size: contain
+  margin-inline: -3.4rem
+  padding: 50px
+  padding-top: 0px!important
+  background-repeat: no-repeat 
+  @media screen and ( max-width: 992px)
+    background-size: cover
+    margin-inline: -3.5rem 
+.banner-interno__fondo
+  background-image: url("../assets/curso/fondo-banner-interno.svg") !important
+  background-repeat: no-repeat 
+.banner-principal .tarjeta
+  background-color: transparent !important
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #12263F !important
+.titulo-principal__numero
+  background: $color-acento-contenido
+.h1, .titulo-principal__numero span, .h2, .h3, .h4, .h5, .h6
+  color: $white !important
+.f-ca
+  color: $color-acento-contenido
+  font-weight: bold
+  font-size: 16px
+.bloque-texto-g.custom_01
+  justify-content: flex-start !important    
+  .bloque-texto-g__img
+    left: 50% !important
+.cajon.color-acento-contenido 
+    background-color: #E8CBD3;
+.color-acento-contenido-custom
+    background-color: #E8CBD3;
+.bg-pend
+  background: #E8CBD3
+.linea-tiempo-d__item--selected .tarjeta--gris
+  background: #E8CBD3 !important
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: #12263F
+.tarjeta--tabla-custom
+  background: #E8CBD3
+  height: 380px
+  border-radius: 21px
+.titulo-segundo:after
+    border-left-color: #A3314F;
+.tarjeta.color-primario-custom 
+    background-color: #E1E4A8;
+    border-radius:  0 !important
+.cajon.color-acento-contenido-custom 
+    background-color: #E1E4A8;
+.cajon.color-acento-contenido-custom:before 
+    background-color: #A3314F;
+.slyder-f__btn i 
+    font-size: 4rem;
+    color: #FFB500
+.tarjeta.color-acento-contenido-custom 
+  height: 380px
+.tabla-b__header
+  background: #CED371;
+.tabla-b table td.border-right-table_b,
+.tabla-b table th.border-right-table_b
+  border-right: 1px solid #949494
+.tabla-b table td.border-bottom-table_b
+  border-bottom: 1px solid #949494
+.img-width-custom
+    width: 60%;
+    margin: 0 auto;
+.border-bottom-custom
+  border-bottom: 1px solid #949494
+.color-acento-contenido-vineta
+  color: #A3314F;
+.sub-steps-custom
+  font-size: 15px
+  font-weight: bold
+  font-color: #12263F
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #CED371;
+  background-color: #CED371;
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, 
+.pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: #CED371;
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: #CED371;
+.pasos-b__header__item__tittle
+  display: none
+.tarjeta--tabla-custom-02
+  background: #E8CBD3
+  height: 500px
+  border-radius: 21px
+.tarjeta.color-acento-botones-custom
+    background-color: #FFDA7F;
+    border-radius: 0
+.img-width-custom-02
+    width: 40%;
+.tabla-b__header-custom
+    background-color: #CED371;
+    padding: 15px;
+    text-align: left;
+    position: sticky;
+    left: 0;
+    font-size: 16px
+    font-weight: bold
+    color: #12263F !important
+.tabla-b__subtitle
+    background-color: #E1E4A8;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    left: 0;
+    font-size: 16px
+    font-weight: bold
+    color: #12263F !important
+.h4-custom
+    font-size: 16px
+    font-weight: bold
+    color: #12263F !important
+.tarjeta-custom.color-acento-botones-custom 
+    background-color: #FFDA7F;
+    height: 100px
+.tarjeta-custom.color-primary-custom 
+    background-color: #E1E4A8;
+    height: 100px
+.img-width-custom-03
+    width: 70%;
+.height-custom 
+    height: 380px
+.h-title-custom 
+    height: 10px
+.tabs-c
+    border-bottom: 0
+.tabs-c__header
+  margin-bottom: 0
+.border-bottom-custom-02
+  border-bottom: 1px solid #5185BA
+.tarjeta.color-acento-botones-custom-02  
+    background-color: #E8CBD3;
+    color: #12263F !important
+.h2-custom
+    font-size: 16px
+    font-weight: bold
+    color: #12263F !important
+.tarjeta-avatar-widt
+    width: 100% !important;
+.tarjeta--tabla-custom-03
+  background: #E8CBD3
+  border-radius: 21px
+.border-radius-20
+  border-radius: 20px
+.img-width-custom-04
+    width: 120px !important;
+    top: 13px !important;
+.img-width-custom-05
+    width: 100px !important;
+    top: 13px !important;
+.h-img-custom
+  height: 95%
+.h-img-custom-85
+  height: 85%
+.p-5-custom
+    padding: 3rem!important;
+.img-width-custom-06
+    width: 60%;
+    margin: 0 auto;
+.img-width-custom-07
+    width: 100%;
+    margin: 0 auto;
+@media (max-width: 768px) 
+  .bloque-texto-g.custom_01 .bloque-texto-g__img 
+    left: 0% !important;
+  .mb-sm-5-custom
+    margin-bottom: 1.75rem !important
+  .p-5-custom
+    padding:  0 1rem !important;
+  .img-width-custom-06, .img-width-custom-07
+    width: 30%;
+  .tarjeta--tabla-custom-02
+    height: initial
+  .h-title-custom, .height-custom, .tarjeta-custom.color-acento-botones-custom, .tarjeta-custom.color-primary-custom
+    height: initial
+  .step-t4 .linea-tiempo-c__content
+    position: relative;
+    top: -50px;
 
-  100%
-    transform: translateY(0px)
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="1112.587" viewBox="0 0 1328 1112.587">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" y2="0.185" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d2e1f1" stop-opacity="0.361"/>
+      <stop offset="1" stop-color="#4679ac" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#edf3f9"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_875986" data-name="Grupo 875986" transform="translate(-136 -369)">
+    <rect id="Rectángulo_51707" data-name="Rectángulo 51707" width="1328" height="1027.587" transform="translate(1464 1481.587) rotate(180)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_51708" data-name="Rectángulo 51708" width="1328" height="193" transform="translate(136 369)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
