@@ -23,7 +23,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 p.mb-0 Para que el proceso de seguimiento sea efectivo, es necesario desarrollar un correcto proceso de planeación, pues en él se definen las herramientas para el control de las actividades y se determinan los objetivos que se desean alcanzar.
-    p.mb-4(data-aos="zoom-in") La etapa de seguimiento es importante para alcanzar, entre otros elementos, beneficios importantes para el proyecto productivo, la organización y el entorno productivo general. Analice el siguiente esquema e identifique tales favores:
+    p.mb-4(data-aos="zoom-in") La etapa de seguimiento es importante para alcanzar, entre otros elementos, <b>beneficios importantes</b> para el proyecto productivo, la organización y el entorno productivo general. Analice el siguiente esquema e identifique tales favores:
     .h2-custom.mb-4(data-aos="zoom-in") Beneficios del proceso de seguimiento
     p.mb-4(data-aos="zoom-in") El seguimiento al proyecto permite:
     .row(data-aos="zoom-in")
@@ -46,7 +46,8 @@
         .row(titulo="1").mt-lg-4
           .col-md-6.mb-4.mb-md-0
             .sub-steps-custom Medir parámetros
-            p.mt-4 El proceso de planeación se inicia con una idea general la cual puede darse para atender una necesidad o bien para resolver un problema a alguna situación.
+            p.mt-4 La medición de parámetros es necesaria para realizar el proceso de seguimiento, ya que esto permite comparar qué tan cerca o qué tan lejos se encuentra la empresa de conseguir los objetivos propuestos; de allí la importancia de los indicadores y de su correcta formulación.
+
         
           .col-md-6
             figure
@@ -131,25 +132,28 @@
                 h2.text-center Consulta fácil
                 p.text-center Un tablero de control correctamente actualizado y con una estructura y visualización claras, será más fácil consultarla y tomar decisiones con un alto principio de realidad.
     p.mb-5.text-center(data-aos="zoom-in")   En términos generales, existen tres tipos de tableros de control:
-    .row.bg1.mb-5.d-flex.justify-content-center.align-items-center(data-aos="zoom-in")
-      .col-md.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema/t4/13.png' alt='AvatarTop')
-        h4.text-center.mt-4 Estratégicos
-        p.text-center Agrupan la información por perspectivas, objetivos, iniciativas e indicadores, para que puedan ser consultados por la alta dirección. Presentan un panorama general de la empresa o del proyecto productivo, así como de sus áreas de funcionamiento y permiten tomar decisiones de fondo, frente a implementación de estrategias.
-      .col-md.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema/t4/14.png' alt='AvatarTop')
-        h4.text-center.mt-4 Operativos
-        p.text-center Se enfocan en procesos de la unidad productiva o proyecto. Definen acciones para mejorar el funcionamiento de áreas específicas. Se desarrollan por parte de los jefes de área, quienes finalmente reportan a sus superiores las novedades registradas.
-      .col-md.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema/t4/15.png' alt='AvatarTop')
-        h4.text-center.mt-4 Directivos
-        p.text-center Contienen información sobre el funcionamiento general de cada una de las áreas de la empresa y se alimentan de la información entregada por los líderes de los equipos operativos.
+    .row.bg1.mb-5.d-flex.justify-content-center(data-aos="zoom-in")
+      .col-md.col-lg-3.mx-3.mb-sm-5-custom.d-flex.p-0
+        div.p-4(style="background-color: #e8cbd3; border-radius:21px")
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema/t4/13.png' alt='AvatarTop')
+          h4.text-center.mt-4 Estratégicos
+          p.text-center Agrupan la información por perspectivas, objetivos, iniciativas e indicadores, para que puedan ser consultados por la alta dirección. Presentan un panorama general de la empresa o del proyecto productivo, así como de sus áreas de funcionamiento y permiten tomar decisiones de fondo, frente a implementación de estrategias.
+      .col-md.col-lg-3.mx-3.mb-sm-5-custom.d-flex.p-0
+        div.p-4(style="background-color: #e8cbd3; border-radius:21px")
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema/t4/14.png' alt='AvatarTop')
+          h4.text-center.mt-4 Operativos
+          p.text-center Se enfocan en procesos de la unidad productiva o proyecto. Definen acciones para mejorar el funcionamiento de áreas específicas. Se desarrollan por parte de los jefes de área, quienes finalmente reportan a sus superiores las novedades registradas.
+      .col-md.col-lg-3.mx-3.mb-sm-5-custom.d-flex.p-0
+        div.p-4(style="background-color: #e8cbd3; border-radius:21px")
+          .row.justify-content-center.mb-3
+            .col-12
+              img(src='@/assets/curso/tema/t4/15.png' alt='AvatarTop')
+          h4.text-center.mt-4 Directivos
+          p.text-center Contienen información sobre el funcionamiento general de cada una de las áreas de la empresa y se alimentan de la información entregada por los líderes de los equipos operativos.
     p.mb-5(data-aos="zoom-in")  Para la elaboración de los tableros de control existen muchas herramientas tecnológicas disponibles, pero sin duda una de las más empleadas el Microsoft Excel, ya que es altamente versátil y fácil de manejar e, igualmente, tiene aplicación en cualquier sector de la economía.     
     .row(data-aos="zoom-in")
       .col-12

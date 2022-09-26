@@ -163,6 +163,7 @@
               tr
                 td.tabla-b__header-custom.border-right-table_b.border-bottom-table_b Representación visual
                 td.border-bottom-table_b(colspan='2') Tabla x Gráfico de barras x Torta.
+        figcaption Nota: Adaptado de https://bit.ly/3bkuRpv
     Separador
     .titulo-segundo(data-aos="zoom-in")
           h2#t_3_1 3.1 Tipos de indicadores
@@ -272,7 +273,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema/t3/13.png')})`}"
       )
       .bloque-texto-g__texto.py-5.px-4
-        p.py-5 Las características de un indicador, hacen referencia a las generalidades que permiten no solo definir el indicador sino, además, clasificarlo, reconocer su utilidad y pertinencia en determinado proceso, establecer su necesidad, acceder a su medición, fijar su importancia y confiabilidad, entre otros aspectos.Las características de un indicador, hacen referencia a las generalidades que permiten no solo definir el indicador sino, además, clasificarlo, reconocer su utilidad y pertinencia en determinado proceso, establecer su necesidad, acceder a su medición, fijar su importancia y confiabilidad, entre otros aspectos.
+        p.py-5 Las características de un indicador, hacen referencia a las generalidades que permiten no solo definir el indicador sino, además, clasificarlo, reconocer su utilidad y pertinencia en determinado proceso, establecer su necesidad, acceder a su medición, fijar su importancia y confiabilidad, entre otros aspectos.
     p.mb-5(data-aos="zoom-in") Para que un indicador sea útil en el alcance del objetivo para el cual fue formulado, es necesario que reúna ciertas características concretas, veámoslas:
     .row(data-aos="zoom-in")
       .col-sm-12.col-md-6
@@ -336,7 +337,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema/t3/23.png')})`}"
       )
       .bloque-texto-g__texto.py-5.px-4
-        p.py-5 Un indicador implica la medición de una variable para facilitar la toma de decisiones al interior de una organización, por lo que su diseño y formulación se deben hacer, teniendo como principio preguntas como: ¿Qué se va a medir?, ¿Para qué se va a medir?, ¿Cómo se va a medir? Una vez se tiene claridad sobre ello, es posible construir el indicador y aplicarlo en la unidad productiva.
+        p.py-5 Un indicador implica la medición de una variable para facilitar la toma de decisiones al interior de una organización, por lo que su diseño y formulación se deben hacer, teniendo como principio preguntas como: <b>¿</b>Qué se va a medir<b>?</b>, <b>¿</b>Para qué se va a medir<b>?</b>, <b>¿</b>Cómo se va a medir<b>?</b> Una vez se tiene claridad sobre ello, es posible construir el indicador y aplicarlo en la unidad productiva.
     .tarjeta.color-primario-custom.p-3.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -412,26 +413,26 @@
         .height-custom
           img.mb-5(src="@/assets/curso/tema/t3/28.png")
         .tarjeta-custom.color-acento-botones-custom.p-3.mb-sm-5-custom
-          p.mb-0 Gráficos circulares: muestran el tamaño proporcional de los elementos que conforman una serie de datos en función del total. Sirven para destacar elementos que resulten significativos.
+          p.mb-0 <b>Gráficos circulares: muestran el tamaño proporcional de los elementos que conforman una serie de datos en función del total. Sirven para destacar elementos que resulten significativos.</b>
       .col-sm-12.col-md-6.d-flex.justify-content-center.align-items-center.flex-column
         .h4-custom.mb-5.h-title-custom.text-center  Distribución de la cosecha de limón en porcentaje en predios de los productores de la asociación CITRIFRUTS
         .height-custom
           img.mb-5(src="@/assets/curso/tema/t3/29.png")
         .tarjeta-custom.color-primary-custom.p-3.mb-sm-5-custom
-          p.mb-0 Gráficos en columnas: se emplean principalmente para analizar los cambios que han tenido los datos en un periodo de tiempo.
+          p.mb-0 <b>Gráficos en columnas: se emplean principalmente para analizar los cambios que han tenido los datos en un periodo de tiempo.</b>
     .row.mb-5(data-aos="zoom-in")
       .col-sm-12.col-md-6.d-flex.justify-content-center.align-items-center.flex-column
         .h4-custom.mb-5.h-title-custom Grupos operarios de la población de la vereda Resguardos
         .height-custom
           img.mb-5(src="@/assets/curso/tema/t3/30.png")
         .tarjeta-custom.color-primary-custom.p-3.mb-sm-5-custom
-          p.mb-0 Barras horizontales: se utilizan, sobre todo, para analizar varios elementos individuales. Son ideales para evidenciar datos de productividad y rendimientos. 
+          p.mb-0 <b>Barras horizontales: se utilizan, sobre todo, para analizar varios elementos individuales. Son ideales para evidenciar datos de productividad y rendimientos. </b>
       .col-sm-12.col-md-6.d-flex.justify-content-center.align-items-center.flex-column
         .h4-custom.mb-5.h-title-custom.text-center  Número de hectáreas sembradas
         .height-custom
           img.mb-5(src="@/assets/curso/tema/t3/31.png")
         .tarjeta-custom.color-acento-botones-custom.p-3.mb-sm-5-custom
-          p.mb-0 Líneas de tendencia: presentan el comportamiento de una variable a través del tiempo. Generalmente se utilizan para medir tasas de productividad, rendimientos, mortalidad de animales o ingresos.
+          p.mb-0 <b>Líneas de tendencia: presentan el comportamiento de una variable a través del tiempo. Generalmente se utilizan para medir tasas de productividad, rendimientos, mortalidad de animales o ingresos.</b>
 
 
 

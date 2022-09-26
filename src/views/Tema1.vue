@@ -76,7 +76,7 @@
         .row(titulo="6").mt-lg-4
           .col-md-6.mb-4.mb-md-0
             .sub-steps-custom Asignar recursos
-            p.mt-4 Las decisiones que se toman en cuanto a los recursos pueden llegar a ejercer una influencia capital en el devenir del proyecto.
+            p.mt-4 Las decisiones que se toman en cuanto a los recursos pueden llegar a ejercer una influencia capital en el devenir del <b>proyecto</b>.
           .col-md-6
             figure
               img(src='@/assets/curso/tema/t1/14.png', alt='Texto que describa la imagen')
@@ -140,14 +140,13 @@
 
     .titulo-segundo(data-aos="zoom-in")
       h2#t_1_1 1.1 Herramientas
-    p.mb-4(data-aos="zoom-in") Es una herramienta para identificar de manera estructurada las causas de un problema o efecto evidenciado, a partir de un esquema gráfico que se asemeja a una espina de pescado, que es como también se denomina a esta herramienta.    
+    p.mb-4(data-aos="zoom-in") Las herramientas de planeación son aquellas que facilitan la toma de decisiones al interior de la empresa agropecuaria, tomando como referencia bases científicas, estadísticas, lógicas o racionales.
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema/t1/6.png')})`}"
       )
       .bloque-texto-g__texto.py-5.px-4
-        p.mb-3 Las herramientas de planeación son aquellas que facilitan la toma de decisiones al interior de la empresa agropecuaria, tomando como referencia bases científicas, estadísticas, lógicas o racionales.
-        p.mb-0 A través de la aplicación de las herramientas de planificación se definen las actividades necesarias para el desarrollo de las estrategias que, finalmente, llevarán al logro de los objetivos propuestos, bien sea en una empresa, un emprendimiento o un proyecto. 
+        p.mb-3 A través de la aplicación de las herramientas de planificación se definen las actividades necesarias para el desarrollo de las estrategias que, finalmente, llevarán al logro de los objetivos propuestos, bien sea en una empresa, un emprendimiento o un proyecto.  
     p.mb-5(data-aos="zoom-in") En el video que se muestra enseguida, amplíe su conocimiento de las herramientas más empleadas en los procesos de planeación; recuerde llevar registro, de lo más destacado, en su libreta personal de apuntes: 
     figure(data-aos="zoom-in")
       .video

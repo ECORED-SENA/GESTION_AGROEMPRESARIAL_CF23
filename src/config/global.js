@@ -278,28 +278,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Responsable equipo desarrollo curricular',
         centro:
-          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-      },
-      {
-        nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador instruccional',
-        centro:
-          'Regional Norte de Santander  – Centro de la Industria, la Empresa y los Servicios',
-      },
-      {
-        nombre: 'Carlos Andrés Sánchez Suárez',
-        cargo: 'Experto temático',
-        centro: 'Región Tolima - Centro Agropecuario La Granja',
-      },
-      {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Asesor metodológico',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
-      },
-      {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Correctora de estilo',
-        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -310,32 +289,49 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '--',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Daniel Polanco',
-        cargo: 'Revisión diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Edgar Mauricio Cortes Garcia',
+        nombre: 'Edgar Mauricio Cortés García',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '--',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez ',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '--',
-        cargo: 'Validación de contenido',
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

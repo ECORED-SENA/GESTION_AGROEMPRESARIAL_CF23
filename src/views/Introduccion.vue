@@ -13,8 +13,8 @@
       | ; comience esta experiencia, visualizando con atención el video introductorio que se muestra enseguida. 
     p.mb-5.f-ca(data-aos="zoom-in") ¡Adelante!
     figure.mb-5(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video        
+        iframe(wwidth="1261" height="719" src="https://www.youtube.com/embed/Og-BFqh9paM" title="Seguimiento a proyectos y acciones de mejora" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     
     

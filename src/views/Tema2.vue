@@ -118,7 +118,7 @@
     .row.mb-3(data-aos="zoom-in")
       .col-12
         .cajon.color-acento-contenido-custom.p-4
-          p.mb-0 Una vez se tiene claridad sobre los recursos que se requieren para el cumplimiento de la meta y el desarrollo de las actividades es necesario desglosar aún más la información y llegar al máximo nivel de detalle
+          p.mb-0 Una vez se tiene claridad sobre los recursos que se requieren para el cumplimiento de la meta y el desarrollo de las actividades es necesario desglosar aún más la información y llegar al máximo nivel de detalle.
     .bg2.mt-5
       p.mb-5(data-aos="zoom-in") En relación con el ejemplo de la tabla anterior, tenga presentes las siguientes conclusiones:
       .row.mb-5.d-flex.justify-content-center.align-items-center(data-aos="zoom-in")
@@ -220,7 +220,7 @@
               | En todo caso, los procesos relacionados con la adquisición de bienes y servicios siempre deben responder a los objetivos estratégicos de la organización y deben aportar al cumplimiento de una meta específica, pues esta es una forma de garantizar su uso eficiente y contribuir a la sostenibilidad del ejercicio productivo.
 
         .col-sm-12.col-lg-6
-            img.h-img-custom(src='@/assets/curso/tema/t2/15.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema/t2/15.png' alt='AvatarTop')
 
 </template>
 
