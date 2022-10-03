@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Seguimiento a proyectos y acciones de mejora',
     descripcionCurso:
       'Este componente formativo aborda aspectos del seguimiento que, en unidades productivas, facilita la identificación de situaciones que afectan el desarrollo de procesos y que pueden afectar el cumplimiento de sus objetivos estratégicos. El aprendiz se capacitará en la formulación de acciones de mejora que aumenten la eficiencia de los procesos y la calidad de los bienes y servicios ofrecidos por la organización agropecuaria.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {

@@ -29,11 +29,11 @@
     .row(data-aos="zoom-in")
       .col-sm-12.col-md-6.mb-5
         LineaTiempoD.color-acento-contenido
-          p.text-small(numero="1" titulo="Determinar actividades") Determinar las actividades a implementar para resolver situaciones problemáticas en la ejecución de los procesos productivos.
-          p.text-small(numero="2" titulo="Tomar decisiones") Tomar decisiones que permitan aumentar la eficiencia de los procesos de la empresa.
-          p.text-small(numero="3" titulo="Reconocer contingencias") Reconocer signos de alarma frente a contingencias que se puedan presentar en la ejecución de las actividades.
-          p.text-small(numero="4" titulo="Verificar cumplimientos") Comprobar que las actividades se están desarrollando correctamente.
-          p.text-small(numero="5" titulo="Valorar la áreas de la operación") Identificar los aportes de cada una de las áreas de la empresa al logro de los objetivos estratégicos.
+          p(numero="1" titulo="Determinar actividades") Determinar las actividades a implementar para resolver situaciones problemáticas en la ejecución de los procesos productivos.
+          p(numero="2" titulo="Tomar decisiones") Tomar decisiones que permitan aumentar la eficiencia de los procesos de la empresa.
+          p(numero="3" titulo="Reconocer contingencias") Reconocer signos de alarma frente a contingencias que se puedan presentar en la ejecución de las actividades.
+          p(numero="4" titulo="Verificar cumplimientos") Comprobar que las actividades se están desarrollando correctamente.
+          p(numero="5" titulo="Valorar la áreas de la operación") Identificar los aportes de cada una de las áreas de la empresa al logro de los objetivos estratégicos.
       .col-sm-12.col-md-6.mb-5
             figure
               img(src='@/assets/curso/tema/t4/2.png', alt='Texto que describa la imagen')
@@ -115,21 +115,21 @@
             img.img-width-custom-04(src='@/assets/curso/tema/t4/10.png' alt='AvatarTop')
             .tarjeta.color-acento-botones-custom-02 
               .p-4
-                h2.text-center Visualización clara
+                h5.text-center Visualización clara
                 p.text-center Para que los tableros de control sean realmente efectivos es necesario que la información que se presente allí sea clara, desde lo visual, y que permita un fácil análisis e interpretación.
         .col-sm-12.col-md-4.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar.color-acento-contenido
             img.img-width-custom-04(src='@/assets/curso/tema/t4/11.png' alt='AvatarTop')
             .tarjeta.color-acento-botones-custom-02
               .p-4
-                h2.text-center Actualización oportuna
+                h5.text-center Actualización oportuna
                 p.text-center Otro de los atributos que debe tener esta herramienta, es la posibilidad de actualizarse constantemente con diversas fuentes de información y en diferentes momentos.
         .col-sm-12.col-md-4.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar.color-acento-contenido
             img.img-width-custom-04(src='@/assets/curso/tema/t4/12.png' alt='AvatarTop')
             .tarjeta.color-acento-botones-custom-02
               .p-4
-                h2.text-center Consulta fácil
+                h5.text-center Consulta fácil
                 p.text-center Un tablero de control correctamente actualizado y con una estructura y visualización claras, será más fácil consultarla y tomar decisiones con un alto principio de realidad.
     p.mb-5.text-center(data-aos="zoom-in")   En términos generales, existen tres tipos de tableros de control:
     .row.bg1.mb-5.d-flex.justify-content-center(data-aos="zoom-in")

@@ -105,11 +105,11 @@
     .row(data-aos="zoom-in")
       .col-sm-12.col-md-6.mb-5
         LineaTiempoD.color-acento-contenido
-          p.text-small(numero="1" titulo="Beneficio") Es una herramienta muy útil en la toma de decisiones, pues permite analizar diferentes escenarios y los efectos de las alternativas planteadas.
-          p.text-small(numero="2" titulo="Finalidad") Su fin principal es el logro de los objetivos estratégicos de la empresa agropecuaria.
-          p.text-small(numero="3" titulo="Articuladora") La planificación armoniza los objetivos de la empresa con los recursos disponibles y con sus necesidades.
-          p.text-small(numero="4" titulo="Secuencialidad") Establece las actividades que se deben llevar a cabo en el presente para alcanzar las metas planteadas a futuro.
-          p.text-small(numero="5" titulo="Empeño") Es un proceso que requiere tiempo, dedicación y análisis.
+          p(numero="1" titulo="Beneficio") Es una herramienta muy útil en la toma de decisiones, pues permite analizar diferentes escenarios y los efectos de las alternativas planteadas.
+          p(numero="2" titulo="Finalidad") Su fin principal es el logro de los objetivos estratégicos de la empresa agropecuaria.
+          p(numero="3" titulo="Articuladora") La planificación armoniza los objetivos de la empresa con los recursos disponibles y con sus necesidades.
+          p(numero="4" titulo="Secuencialidad") Establece las actividades que se deben llevar a cabo en el presente para alcanzar las metas planteadas a futuro.
+          p(numero="5" titulo="Empeño") Es un proceso que requiere tiempo, dedicación y análisis.
       .col-sm-12.col-md-6.mb-5
             figure
               img(src='@/assets/curso/tema/t1/2.png', alt='Texto que describa la imagen')

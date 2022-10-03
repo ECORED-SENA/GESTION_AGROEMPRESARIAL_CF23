@@ -15,19 +15,19 @@
     p.mb-5(data-aos="zoom-in") En relación con los indicadores, tenga en cuenta estos aspectos clave:
     .bg3
       .row.mb-5.d-flex.justify-content-center.align-items-center(data-aos="zoom-in")
-        .col-md.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
+        .col-11.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
           .row.justify-content-center.mb-3
             .col-12
               img(src='@/assets/curso/tema/t3/2.png' alt='AvatarTop')
           h4.text-center.mt-4 Facilidades que aportan
           p.text-center Los indicadores facilitan la toma de decisiones, pues permiten analizar información detallada del funcionamiento de determinado sector de la empresa de una forma precisa y concreta.
-        .col-md.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
+        .col-11.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
           .row.justify-content-center.mb-3
             .col-12
               img(src='@/assets/curso/tema/t3/3.png' alt='AvatarTop')
           h4.text-center.mt-4 Favorecen la evaluación del desempeño
           p.text-center Un indicador se constituye en una variable que, comparada con períodos anteriores, productos similares o una meta o compromiso, permite evaluar el desempeño y su evolución en el tiempo (DANE – 2009).
-        .col-md.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
+        .col-11.col-lg-3.tarjeta--tabla-custom-02.p-4.mx-3.mb-sm-5-custom
           .row.justify-content-center.mb-3
             .col-12
               img(src='@/assets/curso/tema/t3/4.png' alt='AvatarTop')
@@ -42,35 +42,35 @@
 
         .col-lg-7.col-sm-12
           .row.mb-5.d-flex.justify-content-center.align-items-center
-            .col-9
-              .row.border-bottom-custom-02.my-3
-                .col-sm-10.col-lg-2.mb-3
+            .col-11
+              .row.border-bottom-custom-02.my-3.d-flex.justify-content-center.align-items-center
+                .col-sm-6.col-lg-2.mb-3
                   img.img-width-custom-07(src='@/assets/curso/tema/t3/32.png' alt='AvatarTop')
                 .col-10.mb-3
-                  p Generan información útil y mejoran procesos de toma de decisiones.
+                  p.mb-0 Generan información útil y mejoran procesos de toma de decisiones.
               
-              .row.border-bottom-custom-02.my-3
-                .col-sm-10.col-lg-2.mb-3
+              .row.border-bottom-custom-02.my-3.d-flex.justify-content-center.align-items-center
+                .col-sm-6.col-lg-2.mb-3
                   img.img-width-custom-07(src='@/assets/curso/tema/t3/33.png' alt='AvatarTop')
                 .col-10.mb-3
-                  p Permiten evaluar el cumplimiento de acuerdos y compromisos.
-              .row.border-bottom-custom-02.my-3
-                .col-sm-10.col-lg-2.mb-3
+                  p.mb-0 Permiten evaluar el cumplimiento de acuerdos y compromisos.
+              .row.border-bottom-custom-02.my-3.d-flex.justify-content-center.align-items-center
+                .col-sm-6.col-lg-2.mb-3
                   img.img-width-custom-07(src='@/assets/curso/tema/t3/34.png' alt='AvatarTop')
                 .col-10.mb-3
-                  p Facilitan evaluar cambios en una situación definida, como un problema inicial.
-              .row.border-bottom-custom-02.my-3
-                .col-sm-10.col-lg-2.mb-3
+                  p.mb-0 Facilitan evaluar cambios en una situación definida, como un problema inicial.
+              .row.border-bottom-custom-02.my-3.d-flex.justify-content-center.align-items-center
+                .col-sm-6.col-lg-2.mb-3
                   img.img-width-custom-07(src='@/assets/curso/tema/t3/35.png' alt='AvatarTop')
                 .col-10.mb-3
-                  p Permite hacer seguimiento a objetivos, planes, programas y proyectos.
-              .row.my-3
-                .col-sm-10.col-lg-2.mb-3
+                  p.mb-0 Permite hacer seguimiento a objetivos, planes, programas y proyectos.
+              .row.my-3.d-flex.justify-content-center.align-items-center
+                .col-sm-6.col-lg-2.mb-3
                   img.img-width-custom-07(src='@/assets/curso/tema/t3/36.png' alt='AvatarTop')
                 .col-10.mb-3
-                  p Facilita la identificación de los impactos de la implementación de determinada acción.
+                  p.mb-0 Facilita la identificación de los impactos de la implementación de determinada acción.
       .row.mb-5(data-aos="zoom-in")
-        .col-sm-12.col-md-6
+        .col-sm-12.col-lg-6
           p En términos generales, un indicador debe contener como mínimo los siguientes componentes:
           ul.lista-ul
             li 
@@ -97,7 +97,7 @@
             li 
               i.fas.fa-angle-right.color-acento-contenido-vineta
               | <span><b> Meta:</b>&nbsp;define la meta prevista para el desarrollo del proyecto.</span>
-        .col-sm-12.col-md-6
+        .col-sm-12.col-lg-6
             img(src='@/assets/curso/tema/t3/6.png' alt='AvatarTop')
       .tarjeta.color-acento-botones-custom.p-3.mb-5(data-aos="zoom-in")
           .row.justify-content-around.align-items-center
@@ -279,53 +279,53 @@
       .col-sm-12.col-md-6
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Precisión")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t3/14.png', alt='Texto que describa la imagen')
-            .col-10.mb-4.mb-md-0
-              p.text-small Debe estar correctamente delimitado, es decir, que se debe tener absoluta claridad sobre qué se quiere medir y la forma como se va a realizar.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Debe estar correctamente delimitado, es decir, que se debe tener absoluta claridad sobre qué se quiere medir y la forma como se va a realizar.
           .row(numero="2" titulo="Relevancia")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t3/15.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Es necesario que se relacione con el tema en cuestión. Este debe permitir describir la situación analizada.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Es necesario que se relacione con el tema en cuestión. Este debe permitir describir la situación analizada.
           .row(numero="3" titulo="Viable en términos financieros")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t3/21.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small  Su medición debe ser posible con los recursos con que cuente la empresa agropecuaria. En algunas ocasiones se fijan indicadores cuya medición excede el presupuesto del proyecto, lo cual termina volviéndose inviables.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p  Su medición debe ser posible con los recursos con que cuente la empresa agropecuaria. En algunas ocasiones se fijan indicadores cuya medición excede el presupuesto del proyecto, lo cual termina volviéndose inviables.
           .row(numero="4" titulo="Medible y cuantificable")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t3/16.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small El indicador siempre debe ser medible, es decir, abierto a validación independiente. Igualmente, se requiere que sea operacional y que permita registrar los cambios registrados respecto a la situación inicial.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p El indicador siempre debe ser medible, es decir, abierto a validación independiente. Igualmente, se requiere que sea operacional y que permita registrar los cambios registrados respecto a la situación inicial.
           .row(numero="5" titulo="Interpretable")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t3/17.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Deben ser de fácil comprensión para cualquier tipo de público incluso para aquellos que no tienen especialidad en el tema de referencia.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Deben ser de fácil comprensión para cualquier tipo de público incluso para aquellos que no tienen especialidad en el tema de referencia.
           .row(numero="6" titulo="Útiles")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t3/18.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Deben facilitar la toma de decisiones al interior de la empresa agropecuaria e, igualmente, contribuir a la estimación del grado de cumplimiento de los objetivos corporativos de la empresa.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Deben facilitar la toma de decisiones al interior de la empresa agropecuaria e, igualmente, contribuir a la estimación del grado de cumplimiento de los objetivos corporativos de la empresa.
           .row(numero="7" titulo="Confiables")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t3/19.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small La información que alimenta los indicadores debe provenir de fuentes confiables y, además, debe ser fácil constatar su procedencia.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p La información que alimenta los indicadores debe provenir de fuentes confiables y, además, debe ser fácil constatar su procedencia.
           .row(numero="8" titulo="Verificable")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t3/20.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Todos los datos que se registre en los indicadores deben ser verificables, bien sea a través de fuentes primarias como de fuentes secundarias. Cada indicador debe estar acompañado de su respectivo medio de verificación.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Todos los datos que se registre en los indicadores deben ser verificables, bien sea a través de fuentes primarias como de fuentes secundarias. Cada indicador debe estar acompañado de su respectivo medio de verificación.
       .col-sm-12.col-md-6.mb-5
             figure
               img(src='@/assets/curso/tema/t3/22.png', alt='Texto que describa la imagen')
@@ -367,7 +367,7 @@
               p • Asociar cada indicador con sus respectivos medios de verificación. 
               p • Elaborar un informe con los resultados de los indicadores analizados en el proceso de seguimiento.
     .row.mb-5(data-aos="zoom-in")
-      .col-sm-12.col-md-6
+      .col-sm-12.col-lg-6
         p Pero, ¿cómo seleccionar un indicador? En caso de presentarse dudas, frente a la selección del indicador, existen algunos parámetros que se pueden tener en cuenta a través las siguientes preguntas:
         ul.lista-ul
           li 
@@ -385,7 +385,7 @@
           li 
             i.fas.fa-angle-right.color-acento-contenido-vineta
             | ¿Es el indicador suficientemente representativo del total de los resultados deseados y su comportamiento puede ser observado periódicamente?
-      .col-sm-12.col-md-6
+      .col-sm-12.col-lg-6
           img.h-img-custom(src='@/assets/curso/tema/t3/24.png' alt='AvatarTop')
     .tarjeta.color-primario-custom.p-3.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center

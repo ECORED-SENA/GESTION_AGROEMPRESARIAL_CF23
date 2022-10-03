@@ -23,29 +23,29 @@
       .col-sm-12.col-md-6.mb-5
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Definición del objetivo")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t2/2.png', alt='Texto que describa la imagen')
-            .col-10.mb-4.mb-md-0
-              p.text-small Se establece un objetivo claro, medible, cuantificable y acorde con la planeación estratégica de la empresa agropecuaria. Cada una de las acciones que se definan a partir de este objetivo deben estar orientadas al logro del propósito de la empresa y al cumplimiento de las metas establecidas.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Se establece un objetivo claro, medible, cuantificable y acorde con la planeación estratégica de la empresa agropecuaria. Cada una de las acciones que se definan a partir de este objetivo deben estar orientadas al logro del propósito de la empresa y al cumplimiento de las metas establecidas.
           .row(numero="2" titulo="Establecimiento de metas")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t2/3.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Una vez se tiene claridad sobre los objetivos se estiman las metas que se deben alcanzar. Estas deben dar claridad sobre lo que se quiere conseguir en términos cuantitativos. Estas se determinan en el corto plazo y se establecen sobre puntos concretos o específicos.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Una vez se tiene claridad sobre los objetivos se estiman las metas que se deben alcanzar. Estas deben dar claridad sobre lo que se quiere conseguir en términos cuantitativos. Estas se determinan en el corto plazo y se establecen sobre puntos concretos o específicos.
           .row(numero="3" titulo="Definición de actividades")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t2/5.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Cuando se tiene claridad sobre los objetivos y las metas es posible enumerar las actividades que tendrán lugar dentro de la empresa o la organización para lograr lo que se ha propuesto. Las actividades deben ser concretas, específicas y dar cuenta de lo que se va a hacer, cómo y en dónde.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Cuando se tiene claridad sobre los objetivos y las metas es posible enumerar las actividades que tendrán lugar dentro de la empresa o la organización para lograr lo que se ha propuesto. Las actividades deben ser concretas, específicas y dar cuenta de lo que se va a hacer, cómo y en dónde.
           .row(numero="4" titulo="Definición de recursos")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t2/4.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Al establecer las actividades a desarrollar es mucho más fácil saber cuáles son los recursos que se deben tener en cuenta para llevar a cabo determinado proceso. Para este momento, es importante saber qué tipo de recurso es necesario y qué actividades se deben tener en cuenta para gestionarlo.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Al establecer las actividades a desarrollar es mucho más fácil saber cuáles son los recursos que se deben tener en cuenta para llevar a cabo determinado proceso. Para este momento, es importante saber qué tipo de recurso es necesario y qué actividades se deben tener en cuenta para gestionarlo.
       .col-sm-12.col-md-6.mb-5
             figure
               img(src='@/assets/curso/tema/t2/6.png', alt='Texto que describa la imagen')     
@@ -55,34 +55,34 @@
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in")
         .tarjeta.color-acento-contenido-custom.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-sm-10.col-lg-12
               img(src='@/assets/curso/tema/t2/7.png' alt='AvatarTop')
-          h2.text-center Humanos
+          h4.text-center Humanos
           p.text-center Hace referencia al personal y al talento humano necesario para llevar a cabo las actividades propias de la empresa agropecuaria.
 
         .tarjeta.color-acento-contenido-custom.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-sm-10.col-lg-12
               img(src='@/assets/curso/tema/t2/8.png' alt='AvatarTop')
-          h2.text-center Financieros
+          h4.text-center Financieros
           p.text-center Son los elementos económicos o financieros que se requieren para el funcionamiento de la organización, independientemente de su origen.
         .tarjeta.color-acento-contenido-custom.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-sm-10.col-lg-12
               img(src='@/assets/curso/tema/t2/9.png' alt='AvatarTop')
-          h2.text-center Materiales
+          h4.text-center Materiales
           p.text-center Hace referencia a los bienes o insumos que se requieren para el desarrollo de las actividades de la empresa.
         .tarjeta.color-acento-contenido-custom.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-sm-10.col-lg-12
               img(src='@/assets/curso/tema/t2/10.png' alt='AvatarTop')
-          h2.text-center Tecnológicos
+          h4.text-center Tecnológicos
           p.text-center Abarca los equipos, herramientas especializadas, herramientas tecnológicas o equipos de comunicación que se requieren para el funcionamiento de la empresa.
         .tarjeta.color-acento-contenido-custom.p-4
           .row.justify-content-center.mb-3
-            .col-8
+            .col-sm-10.col-lg-12
               img(src='@/assets/curso/tema/t2/11.png' alt='AvatarTop')
-          h2.text-center Particulares
+          h4.text-center Particulares
           p.text-center Son aquellos ofrecidos por personas o empresas de manera casi especial a la organización, como la imagen de marca, la experiencia o la sinergia, entre otros.
     p.mb-5(data-aos="zoom-in") Identifique y analice, en la tabla que se muestra a continuación, los pasos para la estimación de los recursos de una empresa u organización:
     .row.mb-1(data-aos="zoom-in")
@@ -122,14 +122,14 @@
     .bg2.mt-5
       p.mb-5(data-aos="zoom-in") En relación con el ejemplo de la tabla anterior, tenga presentes las siguientes conclusiones:
       .row.mb-5.d-flex.justify-content-center.align-items-center(data-aos="zoom-in")
-        .col-9
-          .row.border-bottom-custom.my-3
-            .col-sm-10.col-md-2.mb-3
+        .col-sm-12.col-lg-9
+          .row.border-bottom-custom.my-3.d-flex.justify-content-center.align-items-center
+            .col-sm-12.col-md-2.mb-3
               img.img-width-custom-06(src='@/assets/curso/tema/t2/12.png' alt='AvatarTop')
             .col-sm-10.col-md-10.mb-3
-              p En el caso de los fertilizantes, por ejemplo, se debe especificar qué tipo de fertilizante se requiere, qué presentación, qué cantidades y qué costo tendrá su adquisición.
+              p.mb-0 En el caso de los fertilizantes, por ejemplo, se debe especificar qué tipo de fertilizante se requiere, qué presentación, qué cantidades y qué costo tendrá su adquisición.
           
-          .row.border-bottom-custom.my-3
+          .row.border-bottom-custom.my-3.d-flex.justify-content-center.align-items-center
             .col-sm-10.col-md-2.mb-3
               img.img-width-custom-06(src='@/assets/curso/tema/t2/13.png' alt='AvatarTop')
             .col-sm-10.col-md-10.mb-3
@@ -137,11 +137,11 @@
               p.mb-0 • Amplio conocimiento técnico del sistema productivo y de sus particularidades. 
               p.mb-0 • Conocimiento de la oferta de productos y servicios relacionados con el sistema productivo. 
               p.mb-0 • Las condiciones ambientales, de acceso, técnicas y productivas de la explotación agropecuaria.
-          .row.my-3
+          .row.my-3.d-flex.justify-content-center.align-items-center
             .col-sm-12.col-md-2.mb-3
               img.img-width-custom-06(src='@/assets/curso/tema/t2/14.png' alt='AvatarTop')
             .col-sm-12.col-md-10.mb-3
-              p La obtención de información detallada sobre las adquisiciones hará que la estimación de recursos sea mucho más precisa.
+              p.mb-0 La obtención de información detallada sobre las adquisiciones hará que la estimación de recursos sea mucho más precisa.
       p.mb-5(data-aos="zoom-in") Una de las maneras para ordenar la información relacionada con los recursos necesarios para el funcionamiento de la empresa agropecuaria, es la construcción de un plan de adquisiciones, el cual puede tener, básicamente, el modelo que propone la siguiente tabla:
       .row(data-aos="zoom-in")
         .col-12
@@ -162,8 +162,8 @@
                   th.tabla-b__header Costo total
               tbody
                 tr
-                  td.border-right-table_b.border-bottom-table_b.text-center(rowspan='6') Implementar planes de fertilización
-                tr
+                  td.border-right-table_b.border-bottom-table_b.text-center.bg-table-gray(rowspan='6') Implementar planes de fertilización
+                tr.bg-table-odd
                   td.border-right-table_b.border-bottom-table_b.text-center Humano
                   td.border-right-table_b.border-bottom-table_b.text-center Jornales para fertilización
                   td.border-right-table_b.border-bottom-table_b.text-center Jornal
@@ -171,7 +171,7 @@
                   td.border-right-table_b.border-bottom-table_b.text-center 40.000                
                   td.text-center.border-bottom-table_b 480.000
 
-                tr
+                tr.bg-table-even
                   td.border-right-table_b.border-bottom-table_b.text-center Material
                   td.border-right-table_b.border-bottom-table_b.text-center Fertilizante 10-20-20
                   td.border-right-table_b.border-bottom-table_b.text-center Bulto
@@ -179,7 +179,7 @@
                   td.border-right-table_b.border-bottom-table_b.text-center 220.000               
                   td.text-center.border-bottom-table_b 3.960.000
                 
-                tr
+                tr.bg-table-odd
                   td.border-right-table_b.border-bottom-table_b.text-center Material
                   td.border-right-table_b.border-bottom-table_b.text-center Azadón
                   td.border-right-table_b.border-bottom-table_b.text-center Unidad
@@ -187,7 +187,7 @@
                   td.border-right-table_b.border-bottom-table_b.text-center 15.000               
                   td.text-center.border-bottom-table_b 30.000
 
-                tr
+                tr.bg-table-even
                   td.border-right-table_b.border-bottom-table_b.text-center Particular 
                   td.border-right-table_b.border-bottom-table_b.text-center Asistencia técnica especializada
                   td.border-right-table_b.border-bottom-table_b.text-center Asesoría
@@ -195,7 +195,7 @@
                   td.border-right-table_b.border-bottom-table_b.text-center 300.000               
                   td.text-center.border-bottom-table_b 300.000
 
-                tr
+                tr.bg-table-odd
                   td.border-right-table_b.border-bottom-table_b.text-center Material
                   td.border-right-table_b.border-bottom-table_b.text-center Transporte de abono
                   td.border-right-table_b.border-bottom-table_b.text-center Viaje

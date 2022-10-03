@@ -20,23 +20,23 @@
       p.mb-5(data-aos="zoom-in") La mejora continua se puede implementar en todos los niveles de la organización.
       .row.mb-5.d-flex.justify-content-center.align-items-center(data-aos="zoom-in")
           .col-sm-12.col-md-4.col-lg-3.mb-5.mb-lg-0
-            .tarjeta-avatar.color-acento-contenido
+            .tarjeta-avatar.color-acento-contenido.padding-custom
               img.img-width-custom-05(src='@/assets/curso/tema/t5/2.png' alt='AvatarTop')
               .tarjeta.color-acento-botones-custom-02.tarjeta-avatar-widt 
                 .p-4
-                  h2.text-center Operativo
+                  h5.text-center Operativo
           .col-sm-12.col-md-4.col-lg-3.mb-5.mb-lg-0
-            .tarjeta-avatar.color-acento-contenido
+            .tarjeta-avatar.color-acento-contenido.padding-custom
               img.img-width-custom-05(src='@/assets/curso/tema/t5/3.png' alt='AvatarTop')
               .tarjeta.color-acento-botones-custom-02.tarjeta-avatar-widt
                 .p-4
-                  h2.text-center Estratégico
+                  h5.text-center Estratégico
           .col-sm-12.col-md-4.col-lg-3.mb-5.mb-lg-0
-            .tarjeta-avatar.color-acento-contenido
+            .tarjeta-avatar.color-acento-contenido.padding-custom
               img.img-width-custom-05(src='@/assets/curso/tema/t5/4.png' alt='AvatarTop')
               .tarjeta.color-acento-botones-custom-02.tarjeta-avatar-widt
                 .p-4
-                  h2.text-center Táctico
+                  h5.text-center Táctico
       p.mb-5(data-aos="zoom-in") El siguiente video detalla los elementos clave de la implementación de la mejora continua en las organizaciones; preste mucha atención y profundice en cada aspecto:
       figure(data-aos="zoom-in")
         .video
@@ -68,29 +68,29 @@
       .col-sm-12.col-md-6
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Fase de planificación")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t5/11.png', alt='Texto que describa la imagen')
-            .col-10.mb-4.mb-md-0
-              p.text-small Esta es una fase clave en los procesos de mejora continua y consiste en el análisis de información para la definición de políticas, estrategias, objetivos, metas y actividades que tendrán lugar en la organización las cuales definirán el plan de acción, el plan operativo y los planes de trabajo individuales. En esta fase, igualmente, se asignan los responsables de cada actividad, se estiman los tiempos de ejecución y se definen los recursos necesarios para su implementación.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Esta es una fase clave en los procesos de mejora continua y consiste en el análisis de información para la definición de políticas, estrategias, objetivos, metas y actividades que tendrán lugar en la organización las cuales definirán el plan de acción, el plan operativo y los planes de trabajo individuales. En esta fase, igualmente, se asignan los responsables de cada actividad, se estiman los tiempos de ejecución y se definen los recursos necesarios para su implementación.
           .row(numero="2" titulo="Fase del hacer")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t5/9.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Para iniciar con el hacer primero se tiene que pasar por la planificación. En esta etapa se llevan a cabo las actividades definidas en los planes de acción, planes operativos y planes de trabajo conforme a los tiempos y las demás estimaciones realizadas por la coordinación del proyecto o la empresa.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Para iniciar con el hacer primero se tiene que pasar por la planificación. En esta etapa se llevan a cabo las actividades definidas en los planes de acción, planes operativos y planes de trabajo conforme a los tiempos y las demás estimaciones realizadas por la coordinación del proyecto o la empresa.
           .row(numero="3" titulo="Fase de verificación")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t5/8.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small En esta fase, mediante revisión de instrumentos previamente establecidos (indicadores), se verifica el avance en la ejecución de actividades y el cumplimiento de metas propuestas en el proceso de planeación. En este proceso se utilizan cronogramas de seguimiento, tableros de control, listas de chequeo y otras herramientas que faciliten la observación. Como resultado, se generan reportes, informes y documentos que dan cuenta de los hallazgos, observaciones, conclusiones y recomendaciones.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p En esta fase, mediante revisión de instrumentos previamente establecidos (indicadores), se verifica el avance en la ejecución de actividades y el cumplimiento de metas propuestas en el proceso de planeación. En este proceso se utilizan cronogramas de seguimiento, tableros de control, listas de chequeo y otras herramientas que faciliten la observación. Como resultado, se generan reportes, informes y documentos que dan cuenta de los hallazgos, observaciones, conclusiones y recomendaciones.
           .row(numero="4" titulo="Fase del actuar")
-            .col-2
+            .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
                 img(src='@/assets/curso/tema/t5/10.png', alt='Texto que describa la imagen')
-            .col-8.mb-4.mb-md-0
-              p.text-small Revisados los resultados de la fase de verificación, se genera un nuevo plan de trabajo enfocado en el desarrollo de acciones correctoras, que permitan superar debilidades encontradas en el proceso de seguimiento, bajo el principio de “actuar en consecuencia de”. Superando así situaciones de insatisfacción a clientes internos y externos, ajustando los procesos y fortaleciendo a toda la empresa. Así, se comienza, de nuevo, otro ciclo PHVA.
+            .col-sm-12.col-lg-8.mb-4.mb-md-0
+              p Revisados los resultados de la fase de verificación, se genera un nuevo plan de trabajo enfocado en el desarrollo de acciones correctoras, que permitan superar debilidades encontradas en el proceso de seguimiento, bajo el principio de “actuar en consecuencia de”. Superando así situaciones de insatisfacción a clientes internos y externos, ajustando los procesos y fortaleciendo a toda la empresa. Así, se comienza, de nuevo, otro ciclo PHVA.
           
       .col-sm-12.col-md-6
             figure
@@ -100,7 +100,7 @@
       h2#t_5_2 5.2 Ejecución de procesos
     .bloque-texto-g.custom_01.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in")
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema/t5/5.png')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/tema/t5/12.png')})`}"
       )
       .bloque-texto-g__texto.py-5.px-4
         p.py-5 En el desarrollo de las acciones de seguimiento es de suma importancia definir los procesos que se llevan a cabo al interior de la organización, ya que a partir de ellos se identifican las falencias o debilidades que dan lugar a las actividades de mejora.
@@ -141,7 +141,7 @@
                 p.mb-0 Para el desarrollo de las acciones de mejora es necesario tener un principio denominado “toma de decisiones basada en hechos” lo cual implica que cualquier decisión que se tome respecto al funcionamiento de la organización o al seguimiento del proyecto tiene que estar sustentada en hechos medibles y cuantificables.
     p.mb-5(data-aos="zoom-in") El siguiente esquema muestra el proceso de construcción del plan de mejora. Analícelo y afiance su comprensión sobre los elementos de las acciones de mejora y el plan de mejora:
     .row.d-flex.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-sm-12.col-md-12.col-lg-8
+      .col-sm-12.col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 2. 
           span  Proceso de construcción del plan de mejora
@@ -285,9 +285,9 @@
         .cajon.color-acento-contenido-custom.p-4
           p.mb-0 Para la aplicación de la matriz de priorización es necesario evaluar los criterios: dificultad de la implementación, tiempo de implementación e impacto de la implementación. Ellos, de acuerdo con el tipo de acción de mejora obtienen una clasificación. Por lo cual, las matrices que obtengan mayores calificaciones serán las que se deban realizar en primera instancia, es decir, en el corto plazo. 
     .row.mb-5(data-aos="zoom-in")
-      .col-sm-12.col-md-6
+      .col-sm-12.col-lg-6
             img.h-img-custom(src='@/assets/curso/tema/t5/20.png' alt='AvatarTop')
-      .col-sm-12.col-md-6
+      .col-sm-12.col-lg-6
         p Para el proceso de priorización de las acciones de mejora es necesario:
         ul.lista-ul
           li 
