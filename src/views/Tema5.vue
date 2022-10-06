@@ -66,7 +66,7 @@
     p.mb-5(data-aos="zoom-in") Ahora, profundice en cada una de las fases del ciclo de mejora continua y sus aspectos clave; procure llevar registro de lo más destacado en su libreta personal de apuntes:
     .row.mb-5(data-aos="zoom-in")
       .col-sm-12.col-md-6
-        LineaTiempoD.color-acento-contenido
+        LineaTiempoD.color-acento-contenido.mb-lg-0.mb-3
           .row(numero="1" titulo="Fase de planificación")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure

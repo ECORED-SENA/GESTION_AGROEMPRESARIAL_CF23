@@ -45,28 +45,28 @@
             .col-11
               .row.border-bottom-custom-02.my-3.d-flex.justify-content-center.align-items-center
                 .col-sm-6.col-lg-2.mb-3
-                  img.img-width-custom-07(src='@/assets/curso/tema/t3/32.png' alt='AvatarTop')
+                  img.img-width-custom-07(src='@/assets/curso/tema/t3/32.svg' alt='AvatarTop')
                 .col-10.mb-3
                   p.mb-0 Generan información útil y mejoran procesos de toma de decisiones.
               
               .row.border-bottom-custom-02.my-3.d-flex.justify-content-center.align-items-center
                 .col-sm-6.col-lg-2.mb-3
-                  img.img-width-custom-07(src='@/assets/curso/tema/t3/33.png' alt='AvatarTop')
+                  img.img-width-custom-07(src='@/assets/curso/tema/t3/33.svg' alt='AvatarTop')
                 .col-10.mb-3
                   p.mb-0 Permiten evaluar el cumplimiento de acuerdos y compromisos.
               .row.border-bottom-custom-02.my-3.d-flex.justify-content-center.align-items-center
                 .col-sm-6.col-lg-2.mb-3
-                  img.img-width-custom-07(src='@/assets/curso/tema/t3/34.png' alt='AvatarTop')
+                  img.img-width-custom-07(src='@/assets/curso/tema/t3/34.svg' alt='AvatarTop')
                 .col-10.mb-3
                   p.mb-0 Facilitan evaluar cambios en una situación definida, como un problema inicial.
               .row.border-bottom-custom-02.my-3.d-flex.justify-content-center.align-items-center
                 .col-sm-6.col-lg-2.mb-3
-                  img.img-width-custom-07(src='@/assets/curso/tema/t3/35.png' alt='AvatarTop')
+                  img.img-width-custom-07(src='@/assets/curso/tema/t3/35.svg' alt='AvatarTop')
                 .col-10.mb-3
                   p.mb-0 Permite hacer seguimiento a objetivos, planes, programas y proyectos.
               .row.my-3.d-flex.justify-content-center.align-items-center
                 .col-sm-6.col-lg-2.mb-3
-                  img.img-width-custom-07(src='@/assets/curso/tema/t3/36.png' alt='AvatarTop')
+                  img.img-width-custom-07(src='@/assets/curso/tema/t3/36.svg' alt='AvatarTop')
                 .col-10.mb-3
                   p.mb-0 Facilita la identificación de los impactos de la implementación de determinada acción.
       .row.mb-5(data-aos="zoom-in")
@@ -277,53 +277,53 @@
     p.mb-5(data-aos="zoom-in") Para que un indicador sea útil en el alcance del objetivo para el cual fue formulado, es necesario que reúna ciertas características concretas, veámoslas:
     .row(data-aos="zoom-in")
       .col-sm-12.col-md-6
-        LineaTiempoD.color-acento-contenido
+        LineaTiempoD.color-acento-contenido.mb-lg-0.mb-3
           .row(numero="1" titulo="Precisión")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
-                img(src='@/assets/curso/tema/t3/14.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema/t3/14.svg', alt='Texto que describa la imagen')
             .col-sm-12.col-lg-8.mb-4.mb-md-0
               p Debe estar correctamente delimitado, es decir, que se debe tener absoluta claridad sobre qué se quiere medir y la forma como se va a realizar.
           .row(numero="2" titulo="Relevancia")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
-                img(src='@/assets/curso/tema/t3/15.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema/t3/15.svg', alt='Texto que describa la imagen')
             .col-sm-12.col-lg-8.mb-4.mb-md-0
               p Es necesario que se relacione con el tema en cuestión. Este debe permitir describir la situación analizada.
           .row(numero="3" titulo="Viable en términos financieros")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
-                img(src='@/assets/curso/tema/t3/21.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema/t3/21.svg', alt='Texto que describa la imagen')
             .col-sm-12.col-lg-8.mb-4.mb-md-0
               p  Su medición debe ser posible con los recursos con que cuente la empresa agropecuaria. En algunas ocasiones se fijan indicadores cuya medición excede el presupuesto del proyecto, lo cual termina volviéndose inviables.
           .row(numero="4" titulo="Medible y cuantificable")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
-                img(src='@/assets/curso/tema/t3/16.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema/t3/16.svg', alt='Texto que describa la imagen')
             .col-sm-12.col-lg-8.mb-4.mb-md-0
               p El indicador siempre debe ser medible, es decir, abierto a validación independiente. Igualmente, se requiere que sea operacional y que permita registrar los cambios registrados respecto a la situación inicial.
           .row(numero="5" titulo="Interpretable")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
-                img(src='@/assets/curso/tema/t3/17.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema/t3/17.svg', alt='Texto que describa la imagen')
             .col-sm-12.col-lg-8.mb-4.mb-md-0
               p Deben ser de fácil comprensión para cualquier tipo de público incluso para aquellos que no tienen especialidad en el tema de referencia.
           .row(numero="6" titulo="Útiles")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
-                img(src='@/assets/curso/tema/t3/18.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema/t3/18.svg', alt='Texto que describa la imagen')
             .col-sm-12.col-lg-8.mb-4.mb-md-0
               p Deben facilitar la toma de decisiones al interior de la empresa agropecuaria e, igualmente, contribuir a la estimación del grado de cumplimiento de los objetivos corporativos de la empresa.
           .row(numero="7" titulo="Confiables")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
-                img(src='@/assets/curso/tema/t3/19.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema/t3/19.svg', alt='Texto que describa la imagen')
             .col-sm-12.col-lg-8.mb-4.mb-md-0
               p La información que alimenta los indicadores debe provenir de fuentes confiables y, además, debe ser fácil constatar su procedencia.
           .row(numero="8" titulo="Verificable")
             .col-4.col-sm-6.col-lg-2.img-center-linea-tiempo
               figure
-                img(src='@/assets/curso/tema/t3/20.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema/t3/20.svg', alt='Texto que describa la imagen')
             .col-sm-12.col-lg-8.mb-4.mb-md-0
               p Todos los datos que se registre en los indicadores deben ser verificables, bien sea a través de fuentes primarias como de fuentes secundarias. Cada indicador debe estar acompañado de su respectivo medio de verificación.
       .col-sm-12.col-md-6.mb-5
@@ -353,7 +353,7 @@
           img.img-width-custom-04(src='@/assets/curso/tema/t3/37.png' alt='AvatarTop')
           .tarjeta.color-acento-botones-custom-02 
             .p-4
-              h2.text-center.mt-0 Antes de la medición
+              h5.text-center.mt-0 Antes de la medición
               p • Los indicadores no se deben imponer, se deben construir colectivamente con opiniones de encargados de las áreas de interés de la empresa. 
               p • Se debe acordar qué es lo que se va a medir: unidades producidas, recursos invertidos, ventas, número de actividades realizadas, entre otras. 
               p • Definir responsabilidades de medición de los indicadores, de análisis de información resultante y del desarrollo de acciones  venidas de su interpretación. 
@@ -362,7 +362,7 @@
           img.img-width-custom-04(src='@/assets/curso/tema/t3/38.png' alt='AvatarTop')
           .tarjeta.color-acento-botones-custom-02
             .p-4
-              h2.text-center.mt-0 Después de la medición
+              h5.text-center.mt-0 Después de la medición
               p • Respetar la cadena de custodia de los datos para mantener su integridad. 
               p • Asociar cada indicador con sus respectivos medios de verificación. 
               p • Elaborar un informe con los resultados de los indicadores analizados en el proceso de seguimiento.
