@@ -212,7 +212,7 @@ export default {
     {
       termino: 'Formulación',
       significado:
-        'Etapa de administración adecuada de los indicadores, dónde se espera definir qué se va a medir y formular el indicador correspondiente.',
+        'Etapa de administración adecuada de los indicadores, donde se espera definir qué se va a medir y formular el indicador correspondiente.',
     },
     {
       termino: 'Indicador',

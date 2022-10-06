@@ -39,8 +39,8 @@
                   h5.text-center Táctico
       p.mb-5(data-aos="zoom-in") El siguiente video detalla los elementos clave de la implementación de la mejora continua en las organizaciones; preste mucha atención y profundice en cada aspecto:
       figure(data-aos="zoom-in")
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .video        
+          iframe(width="1255" height="706" src="https://www.youtube.com/embed/Xv6z-0kyTtY" title="La mejora continua en las organizaciones; generalidades" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
     Separador
     .titulo-segundo(data-aos="zoom-in")
@@ -316,7 +316,7 @@
     .row.mb-5(data-aos="zoom-in")
       .col-12
         .cajon.color-acento-contenido-custom.p-4
-          p.mb-0 Por medio de la implementación de los planes de mejora se aumenta la eficiencia de los procesos que tienen lugar en la unidad productiva y se consigue superar las debilidades encontradas en durante la fase de seguimiento.
+          p.mb-0 Por medio de la implementación de los planes de mejora se aumenta la eficiencia de los procesos que tienen lugar en la unidad productiva y se consigue superar las debilidades encontradas durante la fase de seguimiento.
     p.mb-5(data-aos="zoom-in") Ahora, ya se muestra el formato desarrollado, de acuerdo al ejemplo del formato anteriormente dado:
     .row.mb-5(data-aos="zoom-in")
         .col-12

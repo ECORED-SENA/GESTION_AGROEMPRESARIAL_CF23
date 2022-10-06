@@ -149,8 +149,8 @@
         p.mb-3 A través de la aplicación de las herramientas de planificación se definen las actividades necesarias para el desarrollo de las estrategias que, finalmente, llevarán al logro de los objetivos propuestos, bien sea en una empresa, un emprendimiento o un proyecto.  
     p.mb-5(data-aos="zoom-in") En el video que se muestra enseguida, amplíe su conocimiento de las herramientas más empleadas en los procesos de planeación; recuerde llevar registro, de lo más destacado, en su libreta personal de apuntes: 
     figure(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video        
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/P7rC9kYl-Yk" title="Herramientas de planificación en proyectos agropecuarios" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 
